@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+
+
+main{
+    height:100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../images/abstract-watercolor-guitar-exploding-with-colorful-motion-generated-by-ai.jpg);
+    
+    
+}
+
+main img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+
+header h1{
+    position: absolute;
+    top:10px;
+    left: 20px;
+    display: inline;
+    font-family: cursive;
+    background: linear-gradient(to right,orange,purple,green,lightblue,lightgreen,darkblue);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+header{
+    height:80px;
+    width:100%;
+    position:relative;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.40);
+    z-index: 3;
+}
+
+header .ham_burger_menu {
+    position: absolute;
+    top:25px;
+    right:20px;
+    cursor: pointer;
+    display: none;
+    
+    
+}
+
+
+
+
+header nav ul li{
+    position:relative;
+    display:inline-block;
+    margin:28px;
+    font-size:1.2rem;
+    font-family: cursive;
+    font-weight: bold;
+    background: linear-gradient(to right,orange,purple,green,lightblue,lightgreen,darkblue);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+}
+
+header nav ul {
+   
+    list-style: none;
+    margin-left:500px;
+
+}
+
+
+section  span {
+    background: linear-gradient(to right,orange,purple,green,lightblue,lightgreen,darkblue);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 1.3rem;
+
+}
+
+
+section#introduction{
+    height:600px;
+    width:400px;
+}
+
+section p{
+    text-align:justify;
+    margin: 50px 5px 20px 50px;
+    font-size: 1.3rem;
+    background: linear-gradient(to right,orange,purple,green,lightblue,lightgreen,darkblue);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+
+
+.menu_nav{
+  display: block;
+  transition: 1s;
+}
+
+/* Extra small devices (phones) */
+@media screen and (max-width: 575.98px) {
+
+    main{
+
+    background-size:cover;
+    background-image: url(../images/abstract-watercolor-guitar-exploding-with-colorful-motion-generated-by-ai.jpg);
+    background-position: center center;
+    }
+
+    
+    header .ham_burger_menu {
+       
+        display:block;
+        
+        
+    }
+        header{
+            position: relative;
+            height: 60px;
+            width: 100%;
+         
+
+        }
+
+        header nav ul{
+            position: absolute;
+            height: 500px;
+            width: 150px;
+          box-shadow:0px 0px  10px rgba(0, 0, 0, 0.90);
+          top:65px;
+          right:0px;
+          border-top-left-radius:10px ;
+          border-bottom-left-radius: 10px;
+          display: none;
+        }
+
+        #ai_image img{
+           height:200px;
+           width:200px;
+           border-radius: 10px;
+       
+         
+           
+           
+       }
+      
+       section#introduction{
+        height:300px;
+        width:200px;
+    }
+
+    section p{
+        text-align:justify;
+        margin: 50px 5px 20px 50px;
+        font-size:0.98rem;
+        background: linear-gradient(to right,orange,purple,green,lightblue,lightgreen,darkblue);
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+
+    main{
+        height: 100vh;
+        width: 100%;
+    }
+    header h1{
+        font-size: 1.2rem;
+        position: absolute;
+        top:10px;
+        left: 20px;
+        display: inline;
+        font-family: cursive;
+        background: linear-gradient(to right,orange,purple,green,lightblue,lightgreen,darkblue);
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    header nav ul li{
+        font-size: 1rem;
+    }
+    
+       
+
+
+    
+  }
+  
+  /* Small devices (tablets) */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    main{
+
+        background-size:cover;
+        background-image: url(../images/abstract-watercolor-guitar-exploding-with-colorful-motion-generated-by-ai.jpg);
+        background-position: center center;
+        }
+    
+
+    header .ham_burger_menu {
+       
+        display:none;
+        
+        
+    }
+        header{
+            position: relative;
+            height:70px;
+            width:100%;
+         
+
+        }
+
+        header nav ul{
+            position: absolute;
+          
+
+          top:5px;
+          left:0px;
+        }
+
+       
+      
+       section#introduction{
+        height:400px;
+        width:300px;
+    }
+
+    section p{
+        text-align:justify;
+        margin: 50px 5px 20px 50px;
+        font-size:1.2rem;
+        background: linear-gradient(to right,orange,purple,green,lightblue,lightgreen,darkblue);
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+
+    main{
+        height:100vh;
+        width:100%;
+    }
+    header h1{
+        font-size: 1.5rem;
+        position: absolute;
+        top:10px;
+        left: 20px;
+        display: inline;
+        font-family: cursive;
+        background: linear-gradient(to right,orange,purple,green,lightblue,lightgreen,darkblue);
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    header nav ul li{
+        position:relative;
+        top:20px;
+        font-size:0.90rem;
+       margin:2px;
+       display: inline;
+        
+    }
+    
+       
+
+
+    
+ 
+}
+
+
+/* Medium devices (laptops) */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    main{
+
+        background-size:cover;
+        background-image: url(../images/abstract-watercolor-guitar-exploding-with-colorful-motion-generated-by-ai.jpg);
+        background-position: center center;
+        }
+    
+    header .ham_burger_menu {
+       
+        display:none;
+        
+        
+    }
+        header{
+            position: relative;
+            height:75px;
+            width:100%;
+         
+
+        }
+
+        header nav ul{
+            position: absolute;
+          top:5px;
+          left:0px;
+        }
+
+       
+      
+       section#introduction{
+        height:500px;
+        width:400px;
+    }
+
+    section p{
+        text-align:justify;
+        margin: 50px 5px 20px 50px;
+        font-size:1.4rem;
+        background: linear-gradient(to right,orange,purple,green,lightblue,lightgreen,darkblue);
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+
+    main{
+        height:100vh;
+        width:100%;
+    }
+    header h1{
+        font-size: 1.5rem;
+        position: absolute;
+        top:10px;
+        left: 20px;
+        display: inline;
+        font-family: cursive;
+        background: linear-gradient(to right,orange,purple,green,lightblue,lightgreen,darkblue);
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    header nav ul li{
+        position:relative;
+        top:20px;
+        font-size:1rem;
+       margin:5px;
+       display: inline;
+        
+    }
+    
+       
+
+
+
+  }
+
+  /* Large devices (desktops) */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    header .ham_burger_menu {
+       
+        display:none;
+        
+        
+    }
+        header{
+            position: relative;
+            height:80px;
+            width:100%;
+         
+
+        }
+
+        header nav ul{
+            position: absolute;
+          top:5px;
+          left:0px;
+        }
+
+       
+      
+       section#introduction{
+        height:600px;
+        width:500px;
+    }
+
+    section p{
+        text-align:justify;
+        margin: 50px 5px 20px 50px;
+        font-size:1.6rem;
+        background: linear-gradient(to right,orange,purple,green,lightblue,lightgreen,darkblue);
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+
+    main{
+        height:100vh;
+        width:100%;
+    }
+    header h1{
+        font-size: 1.7rem;
+        position: absolute;
+        top:10px;
+        left: 20px;
+        display: inline;
+        font-family: cursive;
+        background: linear-gradient(to right,orange,purple,green,lightblue,lightgreen,darkblue);
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    header nav ul li{
+        position:relative;
+        top:20px;
+        font-size:1.2rem;
+       margin:5px;
+       display: inline;
+        
+    }
+    
+       
+  
+  }
+
+  /* Extra large devices (large desktops) */
+@media screen and (min-width: 1200px) {
+    main{
+        height:100vh;
+        width: 100%;
+        background-size: cover;
+        background-image: url(../images/abstract-watercolor-guitar-exploding-with-colorful-motion-generated-by-ai.jpg);
+        
+        
+    }
+    
+    main img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+    
+    }
+    
+    
+    
+    header h1{
+        position: absolute;
+        top:10px;
+        left: 20px;
+        display: inline;
+        font-family: cursive;
+        background: linear-gradient(to right,orange,purple,green,lightblue,lightgreen,darkblue);
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    
+    header{
+        height:80px;
+        width:100%;
+        position:relative;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.40);
+        z-index: 3;
+    }
+    
+    header .ham_burger_menu {
+        position: absolute;
+        top:25px;
+        right:20px;
+        cursor: pointer;
+        display: none;
+        
+        
+    }
+    
+    
+    
+    
+    header nav ul li{
+        position:relative;
+        display:inline-block;
+        margin:28px;
+        font-size:1.2rem;
+        font-family: cursive;
+        font-weight: bold;
+        background: linear-gradient(to right,orange,purple,green,lightblue,lightgreen,darkblue);
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        
+    }
+    
+    header nav ul {
+       
+        list-style: none;
+        margin-left:500px;
+    
+    }
+    
+    
+    section  span {
+        background: linear-gradient(to right,orange,purple,green,lightblue,lightgreen,darkblue);
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-size: 1.3rem;
+    
+    }
+    
+    
+    section#introduction{
+        height:600px;
+        width:400px;
+    }
+    
+    section p{
+        text-align:justify;
+        margin: 50px 5px 20px 50px;
+        font-size: 1.3rem;
+        background: linear-gradient(to right,orange,purple,green,lightblue,lightgreen,darkblue);
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+
+   
+    .menu_nav{
+      display: block;
+      transition: 1s;
+    }
+    
+  }
